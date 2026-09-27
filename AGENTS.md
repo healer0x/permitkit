@@ -1,4 +1,10 @@
-# Agent instructions
+## PermitKit notes for agents
+
+- Product page is `/permit`. Do not remove `packages/nextjs/app/permit/page.tsx`.
+- HCS write lives at `packages/nextjs/app/api/hedera/account/permit/route.ts`.
+- Operators keys stay in `packages/nextjs/.env.local` (`HEDERA_OPERATOR_ID`, `HEDERA_OPERATOR_KEY`). Never commit that file.
+- Header link label is PermitKit (`/permit`).
+ Agent instructions
 
 Briefing for coding agents in this app (Cursor, Claude Code, Codex). Claude Code loads it through `CLAUDE.md`.
 
