@@ -1,6 +1,6 @@
 {
-  "name": "blank",
-  "description": "Minimal Scaffold-HBAR starter: Next.js, Hardhat or Foundry, sample HTS contracts, no opinionated product UI.",
+"name": "permitkit",
+"description": "Capped spend permits on Hedera: wallet login, grant a cap and expiry, write the grant to HCS, HashScan proof.",
   "create-scaffold-hbar": {
     "capabilities": {
       "frontend": ["nextjs-app"],
@@ -15,7 +15,7 @@
     "outro": {
       "sections": [
         {
-          "title": "Next steps",
+          "title": "permitkit",
           "steps": [
             {
               "label": "Generate or import a deployer account",
